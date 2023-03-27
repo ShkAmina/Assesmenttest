@@ -1,0 +1,169 @@
+.body
+{
+    margin:  10px ;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 400px auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 30px;
+    margin: 10px;
+    /* text-align: center; */
+}
+.header
+{
+    grid-row-start: 1 ;
+    grid-row-end: 2 ;
+    grid-column-start: 1;
+    grid-column-end: 2;  
+      background-color:rgb(250, 235, 214) ;
+      text-align: center;
+
+
+
+}
+.HTML
+{
+    grid-row-start: 1 ;
+    grid-row-end: 2 ;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-weight: bolder;
+    background-color:rgb(250, 235, 214) ;
+ 
+
+
+}
+
+.form
+{
+    grid-row-start: 1 ;
+    grid-row-end: 3 ;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color:rgb(250, 235, 214) ;
+    text-align: center;
+
+
+}
+input{
+    margin: 10px;
+    text-align:center;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    height: 20px;
+
+}
+.submit{
+    background-color: green;
+    width: 160px;
+   
+
+}
+.Flex
+{
+    text-align: center;
+    grid-row-start: 2 ;
+    grid-row-end: 3 ;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color:rgb(250, 235, 214) ;
+    
+}
+.Item
+{
+    display: flex;
+    justify-content: space-around;
+}
+.box
+{
+    background-color: rgb(126, 255, 212);
+    width: 200px;
+    height: 200px;
+    font-weight: bold;
+    padding: 10px;
+}
+@media   screen and (max-width: 480px) {
+
+
+    .grid
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 10px;
+        /* text-align: center; */
+    }
+    .header
+    {
+
+        display: flex;
+        flex-direction: column;
+        /* grid-row-start: 1 ;
+        grid-row-end: 2 ;
+        grid-column-start: 1;
+        grid-column-end: 2;   */
+          background-color:rgb(250, 235, 214) ;
+          text-align: center;
+    
+    
+    
+    }
+    .HTML
+    {
+        display: flex;
+        flex-direction: column;
+        font-weight: bolder;
+        background-color:rgb(250, 235, 214) ;
+     
+    
+    
+    }
+    
+    .form
+    {display: flex;
+        flex-direction: column;
+        background-color:rgb(250, 235, 214) ;
+        text-align: center;
+    
+    
+    }
+    input{
+        margin: 10px;
+        text-align:center;
+        border-radius: 25px;
+        border: none;
+        text-align: center;
+        height: 20px;
+    
+    }
+    .submit{
+        background-color: green;
+        width: 160px;
+        
+    
+    }
+    .Flex
+    {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(250, 235, 214) ;
+        
+    }
+    .Item
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+    .box
+    {
+        background-color: rgb(126, 255, 212);
+        width: 200px;
+        height: 200px;
+        font-weight: bold;
+        padding: 10px;
+    }
+}
