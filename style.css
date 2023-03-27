@@ -161,8 +161,8 @@ input{
     .box
     {
         background-color: rgb(126, 255, 212);
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
         font-weight: bold;
         padding: 10px;
     }
